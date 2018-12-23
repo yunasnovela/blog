@@ -1,41 +1,25 @@
-baseurl = "https://example.org/"
-languageCode = "en-us"
+baseurl = "yunasnovela.github.io"
 title = "DantonKoto"
-theme = "hugo-natrium-theme"
-preserveTaxonomyNames = true
-rssLimit = 10
-paginate = 10
-pygmentsCodefences = true
-pygmentsStyle = "native"
+copyright = "Copyright &copy; 2017 - Author Name"
+canonifyurls = false
+theme = "hugo-kiera"
 
-[taxonomies]
-    category = "categories"  
-    tag = "tags"
+paginate = 6
 
-[permalinks]
-    post = "/:slug/"
-    page = "/:slug/"
+summaryLength = 40
+enableEmoji = true
+pygmentsCodeFences = true
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = -110
-    
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = -120
-
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = -130
+[author]
+    name = "yunasnovela"
+    github = "yunasnovela"
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
 
 [params]
-    description = ""
+    tagline = "Sedikit berbagi pengalaman di bidang Open Source GNU/Linux"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 500
-    alt = "Logo"
+
