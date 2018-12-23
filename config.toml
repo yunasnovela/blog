@@ -4,9 +4,9 @@ copyright = "Copyright &copy; 2017 - Author Name"
 canonifyurls = false
 theme = "hugo-kiera"
 
-paginate = 6
+paginate = 5
 
-summaryLength = 40
+summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
 
