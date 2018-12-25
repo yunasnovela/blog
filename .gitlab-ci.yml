@@ -1,0 +1,22 @@
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/hugo
+image: monachus/hugo
+# ABOVE ^ LINE CHANGED
+
+pages:
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+
+test:
+  script:
+  - hugo
+  except:
+  - master
