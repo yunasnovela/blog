@@ -1,6 +1,6 @@
 baseurl = "yunasnovela.github.io"
 title = "DantonKoto"
-copyright = "Copyright &copy; 2017 - Author Name"
+copyright = "Copyright &copy; 2018 - Yunas Novela H."
 canonifyurls = false
 theme = "hugo-kiera"
 
@@ -20,6 +20,6 @@ pygmentsCodeFences = true
     instagram = ""
 
 [params]
-    tagline = "Sedikit berbagi pengalaman di bidang Open Source GNU/Linux"
+    tagline = ""
 
 
